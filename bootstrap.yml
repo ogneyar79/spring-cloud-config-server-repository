@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: s-toKafka-service
+  profiles:
+    active: to-kafka-service
+  cloud:
+    config:
+      name: s-toKafka-service, config-client
+      uri: htpp:/localhost:8888/
