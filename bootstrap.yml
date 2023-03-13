@@ -5,5 +5,5 @@ spring:
     active: s_to_kafka
   cloud:
     config:
-      name: s-toKafka-service, config-client
+      name: s-toKafka-service, config-client,config-service
       uri: htpp:/localhost:8888/
